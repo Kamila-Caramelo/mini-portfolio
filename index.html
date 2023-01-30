@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <title>Mini Portfólio Kamila</title>
+</head><!--cabeça/cabeçalho-->
+<body><!--corpo do site-->
+    <main class="cartao">  <!--class da o nome ao atributo!-->
+        <div class="minhas-informacoes">
+            <img src="./src/imagens/kamila.jpg" alt="foto de perfil"><!--src é o caminho do arquivo--><!--alt-descrição da imagem-->
+            <h1 class="nome">Kamila G. Caramelo</h1>
+            <h2 class="cargo">Desenvolvedor Frontend Júnior</h2>
+        </div>
+
+        <div class="conteudo"> 
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/imagens/sobre.gif" alt="ícone de sobre mim">
+                </li><!--dentro da ul só pode ter <li>-->
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="ícone de redes sociais"></li>            
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Seja bem-vindo(a)!</p>
+
+                        <p> 
+                            Prazer em te conhecer, sou formada em sistemas de informação tenho experiencia em help desk. 
+                            No momento estou aprofundando meus estudos em <span>programação frontend, começando por HTML, 
+                            CSS e JavaSript.</span> Adoro desafios e estou disposta a aprender.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="informacao" id="informacao-minhas-redes">
+                        <h3 class="sub-titulo">Minhas Redes</h3>
+                        
+                        <ul class="redes-sociais">
+                            <li>
+                                <a href="link curriculo" target="_blank" class="curriculo">Currículo </a><!--atributo ancora href caracteristica ou seja pra onde vai levar a pessoa-->
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/kamila-gavioli-caramelo-924585211/" target="_blank" class="linkedin">Linkedin</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Kamila-Caramelo" target="_blank" class="github">GitHub</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
+
+
+
